@@ -131,6 +131,9 @@ nav ul li a:hover
 	header{
 		margin: 20px;
 	}
+	h1{
+		top: 8%;
+	}
 	h1 span{
 		position: relative;
 		top: -10px;
