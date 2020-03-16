@@ -131,6 +131,10 @@ nav ul li a:hover
 	header{
 		margin: 20px;
 	}
+	h1 span{
+		position: relative;
+		top: -10px;
+	}
 	
 }
 @media(max-width: 768px){
