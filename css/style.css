@@ -22,6 +22,7 @@ video{
 h1{
 	margin: 0;
 	padding: 0;
+	position: absolute;
 	top: 13%;
 	transform: translateY(-50%);
 	width: 100%;
@@ -30,7 +31,6 @@ h1{
 	font-size: 2.5em;
 	font-family: sans-serif;
 	letter-spacing: 0.2em;
-	position: absolute;
 
 }
 h1 span{
@@ -131,13 +131,6 @@ nav ul li a:hover
 	header{
 		margin: 20px;
 	}
-	h1{
-		top: 8%;
-	}
-	h1 span{
-		position: relative;
-		top: -10px;
-	}
 	
 }
 @media(max-width: 768px){
@@ -174,10 +167,6 @@ nav ul li a:hover
 	}
 	nav.active ul{
 		display: block;
-	}
-	h1{
-		display: relative;
-		top:-75px;
 	}
 
 	
