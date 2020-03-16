@@ -2,10 +2,10 @@
 
 
  img{
-	margin-top: -500px;
-	margin-left: -650px;
+	margin-top: -300px;
+	margin-left: -800px;
 	-webkit-clip-path: circle(50% at 50% 50%);
-	height: 900px;
+	width: : 900px;
 	height: 900px;
 }
 
@@ -14,7 +14,8 @@
 	padding: 0;
 	color: #111;
 	font-size: 6em;
-	margin-left: -100px
+	margin-left: -100px;
+	margin-top: -400px;
 }
 .welcome h1 span{
 	-ms-display: table-cell;
