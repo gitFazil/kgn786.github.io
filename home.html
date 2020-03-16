@@ -3,7 +3,7 @@
 <head>
 	<title>My Amazing KGN Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body style="margin :0;
@@ -91,15 +91,17 @@
 			</div>
 		</div>
 	<footer></footer>
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="scroll.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	
     <script type="text/javascript">
   	   $(document).ready(function(){
   		$('.menu-toggle').click(function(){
-  			$('.menu-toggle').toggleClass('.active')
-  			$('nav').toggleClass('.active')
-  		})
-  	   })
+  			$('.menu-toggle').toggleClass('active');
+  			$('nav').toggleClass('active');
+  		});
+  	   });
   </script>
 
 

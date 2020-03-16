@@ -1,19 +1,14 @@
 /*-----================WELCOME NOTE==============---------*/
-@import url('https://fonts.googleapis.com/css?family=Bad+Script')
-body{
-	
-}
 
-img{
+
+ img{
 	margin-top: -500px;
 	margin-left: -650px;
 	-webkit-clip-path: circle(50% at 50% 50%);
 	height: 900px;
 	height: 900px;
 }
-.weldiv{
-    
-}
+
 .welcome h1{
 	margin: 0;
 	padding: 0;
@@ -76,6 +71,7 @@ img{
 }
 #heart{
 	font-size: 2em;
+	color: #111;
 }
 
 @media(max-width:  700px){
