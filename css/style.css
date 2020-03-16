@@ -12,19 +12,16 @@ body{
 section{
 	height: 200px;
 	background:#000;
-	position: relative;
 }
 video{
 	height: 200px;
 	width: 100%;
 	-webkit-object-fit: cover;
 	-ms-object-fit: cover;
-	position: absolute;
 }
 h1{
 	margin: 0;
 	padding: 0;
-	position: absolute;
 	top: 13%;
 	transform: translateY(-50%);
 	width: 100%;
@@ -172,7 +169,8 @@ nav ul li a:hover
 		display: block;
 	}
 	h1{
-		margin-top: -50px;
+		display: relative;
+		top:-75px;
 	}
 
 	
