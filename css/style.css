@@ -319,7 +319,7 @@ main:before{
 	-webkit-clip-path: polygon(100% 50%,0 100%,100% 100%);
 	-ms-clip-path: polygon(100% 50%,0 100%,100% 100%);
 	clip-path: polygon(100% 50%,0 100%,100% 100%);
-	-o-clip-path: polygon(100% 50%,0 100%,100% 100%);
+	-moz-clip-path: polygon(100% 50%,0 100%,100% 100%);
 }
 
 .artical1 {
